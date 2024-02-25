@@ -1,12 +1,13 @@
 import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-todo-list',
+  selector: 'todo-list',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './todo-list.component.html',
   styleUrl: './todo-list.component.css'
 })
 export class TodoListComponent {
-
+  users: string[] = ['Shopping', 'Skiing'];
 }
