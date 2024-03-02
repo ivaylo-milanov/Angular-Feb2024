@@ -1,5 +1,9 @@
 <div class="todo">
-  <header></header>
-  <todo-list></todo-list>
+  <div class="header">
+    <h1>ToDo List</h1>
+    <input type="text" class="todo-input" placeholder="Write your todo list here..." #inputToDo>
+    <button (click)="addToDo(inputToDo)" class="btn-add">Add</button>
+  </div>
+  <todo-list [users]="users"></todo-list>
   <pop-up></pop-up>
 </div>
