@@ -1,0 +1,24 @@
+body {
+  max-width: 100%;
+  margin: auto;
+  position: relative;
+  min-height: 100vh;
+}
+
+h2 {
+  text-align: center;
+  border-bottom: 1px dashed #999;
+}
+
+span {
+  font-weight: bold;
+}
+
+button {
+  background-color: #4ebced;
+  color: white;
+}
+
+button:hover {
+  cursor: pointer;
+}
